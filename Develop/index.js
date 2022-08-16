@@ -48,27 +48,72 @@ const questions = [
     {
         type: 'input',
         name: 'description',
-        message: 'What is a description of the project?'
+        message: 'What is a description of the project?',
+        validate: descriptionInput => {
+            if (descriptionInput) {
+                return true;
+            }
+            else {
+                console.log('Please enter a description!');
+                return false;
+            }
+        }
     },
     {
         type: 'input',
         name: 'install',
         message: 'What are the installation instructions for the project?',
+        validate: installInput => {
+            if (installInput) {
+                return true;
+            }
+            else {
+                console.log('Please provide installation instructions!');
+                return false;
+            }
+        }
     },
     {
         type: 'input',
         name: 'usage',
-        message: 'What usage information can you provide about your project?'
+        message: 'What usage information can you provide about your project?',
+        validate: usageInput => {
+            if (usageInput) {
+                return true;
+            }
+            else {
+                console.log('Please provide usage information!');
+                return false;
+            }
+        }
     },
     {
         type: 'input',
         name: 'contribution',
         message: 'What are the contribution guidelines for the project?',
+        validate: contributionInput => {
+            if (contributionInput) {
+                return true;
+            }
+            else {
+                console.log('Please provide contribution guidelines!');
+                return false;
+            }
+        }
     },
     {
         type: 'input',
         name: 'test',
         message: 'What are the test instructions for the project?',
+        validate: testInput => {
+            if (testInput) {
+                return true;
+            }
+            else {
+                console.log('Please provide test instructions!');
+                return false;
+            }
+        }
     },
     {
         type: 'list',
