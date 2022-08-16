@@ -2,7 +2,7 @@
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
   if (license !== 'None') {
-    return `https://img.shields.io/badge/license-${license}-blue`
+    return `[GitHub license](https://img.shields.io/badge/license-${license}-blue.svg)`
   }
   else {
     return ' '
@@ -13,8 +13,15 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
   if (license !== 'None') {
-    return `
-    (https://opensource.org/licenses/${license})`
+    if (license === 'MIT') {
+      return `[MIT](https://opensource.org/licenses/MIT)`
+    }
+    if (license === 'BSD') {
+      return `[BSD](https://opensource.org/licenses/BSD-3-Clause)`
+    }
+    if (license === 'Apache') {
+      return `[APACHE](https://www.apache.org/licenses/LICENSE-2.0)`
+    }
   }
   else {
     return ' '
@@ -35,44 +42,44 @@ function renderLicenseSection(license) {
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `
-#Project Title
-${data.title} 
+# Project Title  
+${data.title}  
       
-##Project Description 
-${data.description}
+## Project Description  
+${data.description}  
 
-#[License]
-##${renderLicenseSection(data.license)}
-##Licnese Badge: ${renderLicenseBadge(data.license)}
-##License Link: ${renderLicenseLink(data.license)}
+# License
+## ${renderLicenseSection(data.license)}  
+## Licnese Badge: (${renderLicenseBadge(data.license)})  
+## License Link: (${renderLicenseLink(data.license)})
       
-#Table of Contents
+# Table of Contents  
 
-*[Installation](#Installation)
-*[Usage](#usage)
-*[License](#license)
-*[Contributing](#contribute)
-*[Tests](#test)
-*[Questions](#questions)
+*[Installation](#installation)  
+*[Usage](#usage)  
+*[License](#license)  
+*[Contributing](#contributing)  
+*[Tests](#tests)  
+*[Questions](#questions)  
 
-#Installation
-${data.install}
+# Installation  
+${data.install}  
 
-#Usage
-${data.usage}
+# Usage  
+${data.usage}  
 
-#Contributing
-${data.contribution}
+# Contributing  
+${data.contribution}  
 
-#Tests
-${data.test}
+# Tests  
+${data.test}  
 
-# Questions
+# Questions  
 
-Have any questions? Feel free to contact me.
+Have any questions? Feel free to contact me.  
 
-Github: [https://github.com/${data.github}](https://github.com/${data.github})
-Email: ${data.email}
+Github: [https://github.com/${data.github}](https://github.com/${data.github})  
+Email: ${data.email}  
 `;
 }
 

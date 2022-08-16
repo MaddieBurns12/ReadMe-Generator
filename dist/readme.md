@@ -1,40 +1,39 @@
 
-#Project Title
-ldsajfljhn 
+# Project Title  
+Project Title Example  
       
-##Project Description 
-lsadkjflsjdf
+## Project Description  
+Example description, describing all the things for the example project.  
 
-#[License]
-##This project used BSD 3 license
-##Licnese Badge: https://img.shields.io/badge/license-BSD 3-blue
-##License Link: 
-    (https://opensource.org/licenses/BSD 3)
+# License
+## This project used MIT license  
+## Licnese Badge: ([GitHub license](https://img.shields.io/badge/license-MIT-blue.svg))  
+## License Link: ([MIT](https://opensource.org/licenses/MIT))
       
-#Table of Contents
+# Table of Contents  
 
-*[Installation](#Installation)
-*[Usage](#usage)
-*[License](#license)
-*[Contributing](#contribute)
-*[Tests](#test)
-*[Questions](#questions)
+*[Installation](#installation)  
+*[Usage](#usage)  
+*[License](#license)  
+*[Contributing](#contributing)  
+*[Tests](#tests)  
+*[Questions](#questions)  
 
-#Installation
-lsdakjflsdjf
+# Installation  
+Example installation instructions for the example project.  
 
-#Usage
-lskdjflsdjf
+# Usage  
+Example usage information for our very useful example project.  
 
-#Contributing
-lsadfkjlsdjf
+# Contributing  
+Guidelines to contribute to the example project.  
 
-#Tests
-lasdkjflsdjf
+# Tests  
+Example test instructions to test the example project.  
 
-# Questions
+# Questions  
 
-Have any questions? Feel free to contact me.
+Have any questions? Feel free to contact me.  
 
-Github: [https://github.com/lksajdfljdsf](https://github.com/lksajdfljdsf)
-Email: sljdfljs
+Github: [https://github.com/githubuserexample](https://github.com/githubuserexample)  
+Email: exampleemail@address.com  
