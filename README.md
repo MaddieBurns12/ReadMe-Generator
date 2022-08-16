@@ -12,3 +12,11 @@ For the project to work properly you need the packages from inquirer and then th
 ## Usage  
 This application is so useful for anyone who is producing any kind of coding project, because any quality coding project must include a readme.  
 
+Screenshot of an example generated readme:  
+![readme-example](./assets/Screenshot%202022-08-16%20184801.png)  
+
+Link to walkthrough video:  
+[walkthrough](https://www.youtube.com/watch?v=NWLTws-ZOCs)  
+
+Link to repository: 
+[repo](https://github.com/MaddieBurns12/ReadMe-Generator)
