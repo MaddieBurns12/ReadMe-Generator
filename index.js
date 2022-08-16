@@ -121,9 +121,9 @@ const questions = [
         name: 'license',
         message: 'What license would you like to use?',
         choices: [
-            "APACHE 2.0",
-            "BSD 3",
-            "GVL-GPL 3.0",
+            "APACHE",
+            "BSD",
+            "GVL-GPL",
             "MIT",
             "None"
         ],
